@@ -15,7 +15,7 @@ function App() {
     return new Promise((resolve, reject)=>{
       setTimeout(() => {
         resolve()
-      }, d * 1000);
+      }, d * 2000);
     })
   }
   
